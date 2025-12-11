@@ -1,3 +1,4 @@
+/*여기서 CPU_CLOCK, NVIC priority 값은 실제 보드/Toolchain에 맞게 조정해야 한다.*/
 #ifndef FREERTOS_CONFIG_H
 #define FREERTOS_CONFIG_H
 
