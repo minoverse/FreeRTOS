@@ -47,7 +47,7 @@ uint8_t uartRxByte;
 
 /* External HAL handles */
 extern UART_HandleTypeDef huart2;
-extern TIM_HandleTypeDef  htim2;
+extern TIM_HandleTypeDef  htim2; //extern why? 이 파일에는 메모리를 할당하지 말고, 다른 곳에 있는 htim2를 참조
 
 /* ===== FreeRTOS Objects & Tasks Initialization ===== */
 void MX_FREERTOS_Init(void)
