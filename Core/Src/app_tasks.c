@@ -109,7 +109,7 @@ void ProcessCommand(const char *cmd)
     {
         uint32_t up, err;
         size_t free_heap, min_heap;
-
+    // 단일 작업(Atomic Operation)
         taskENTER_CRITICAL();
         up  = system_uptime;
         err = error_count;
